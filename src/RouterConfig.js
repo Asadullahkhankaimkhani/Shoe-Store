@@ -8,12 +8,12 @@ const RouterConfig = () => {
     return (
         <div>
             <Router>
-            <Switch>
+            {/* <Switch> */}
             <Route exact path ='/' component={Home}/>
             <Route path ='/about' component={About}/>
             <Route path ='/product' component={Product}/>
             <Route path ='/productItem/:id' component={ProductItem}/>
-            </Switch>
+            {/* </Switch> */}
             </Router>
         </div>
     )
