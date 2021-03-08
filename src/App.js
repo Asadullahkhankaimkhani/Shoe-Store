@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import RouterConfig from './RouterConfig.js'
 function App() {
   return (
     <div className="App">
-
-    <h1>Shoe Shop</h1>
+    <RouterConfig/>
     </div>
   );
 }
