@@ -1,12 +1,14 @@
+import React from 'react'
+import RouteConfig from './RouteConfig'
 
-import './App.css';
-import RouterConfig from './RouterConfig.js'
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-    <RouterConfig/>
+    <div>
+  
+      <RouteConfig/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
