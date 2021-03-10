@@ -5,7 +5,6 @@ import RouteConfig from './RouteConfig'
 const App = () => {
   return (
     <div>
-  
       <RouteConfig/>
     </div>
   )
