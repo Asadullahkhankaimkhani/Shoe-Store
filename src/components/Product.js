@@ -5,8 +5,10 @@ import { Link } from "react-router-dom";
 
 const Product = () => {
   return (
-    <div className="container-fluid">
-      <h1>Welcome to Product</h1>
+    <div>
+      <div className="jumbotron text-primary">
+        <h1>Welcome to Product</h1>
+      </div>
       <div className="row">
         {Object.keys(Shoes).map((keyName) => {
           const shoe = Shoes[keyName];
